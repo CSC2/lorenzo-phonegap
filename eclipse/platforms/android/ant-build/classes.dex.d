@@ -1,0 +1,23 @@
+/Users/Paul/Desktop/git/LorenzoDemo/platforms/android/ant-build/classes.dex : \
+/Users/Paul/Desktop/git/LorenzoDemo/platforms/android/ant-build/classes/com/csc/lorenzodemo/BuildConfig.class \
+/Users/Paul/Desktop/git/LorenzoDemo/platforms/android/ant-build/classes/com/csc/lorenzodemo/LorenzoDemo.class \
+/Users/Paul/Desktop/git/LorenzoDemo/platforms/android/ant-build/classes/com/csc/lorenzodemo/R$attr.class \
+/Users/Paul/Desktop/git/LorenzoDemo/platforms/android/ant-build/classes/com/csc/lorenzodemo/R$drawable.class \
+/Users/Paul/Desktop/git/LorenzoDemo/platforms/android/ant-build/classes/com/csc/lorenzodemo/R$string.class \
+/Users/Paul/Desktop/git/LorenzoDemo/platforms/android/ant-build/classes/com/csc/lorenzodemo/R$xml.class \
+/Users/Paul/Desktop/git/LorenzoDemo/platforms/android/ant-build/classes/com/csc/lorenzodemo/R.class \
+/Users/Paul/Desktop/git/LorenzoDemo/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$1.class \
+/Users/Paul/Desktop/git/LorenzoDemo/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$2.class \
+/Users/Paul/Desktop/git/LorenzoDemo/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$3.class \
+/Users/Paul/Desktop/git/LorenzoDemo/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$4.class \
+/Users/Paul/Desktop/git/LorenzoDemo/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$5$1.class \
+/Users/Paul/Desktop/git/LorenzoDemo/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$5$2.class \
+/Users/Paul/Desktop/git/LorenzoDemo/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$5$3.class \
+/Users/Paul/Desktop/git/LorenzoDemo/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$5$4.class \
+/Users/Paul/Desktop/git/LorenzoDemo/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$5$5.class \
+/Users/Paul/Desktop/git/LorenzoDemo/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$5.class \
+/Users/Paul/Desktop/git/LorenzoDemo/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$InAppBrowserClient.class \
+/Users/Paul/Desktop/git/LorenzoDemo/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser.class \
+/Users/Paul/Desktop/git/LorenzoDemo/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppChromeClient.class \
+/Users/Paul/Desktop/git/LorenzoDemo/platforms/android/ant-build/classes/org/apache/cordova/splashscreen/SplashScreen.class \
+/Users/Paul/Desktop/git/LorenzoDemo/platforms/android/ant-build/dexedLibs/classes-96bb4d9e74a45829eb5f1588c7ca5673.jar \
