@@ -19,18 +19,63 @@
 
 package com.csc.lorenzodemo;
 
+import java.io.File;
+
 import org.apache.cordova.CordovaActivity;
 
+import android.content.Context;
 import android.os.Bundle;
+import android.os.Environment;
+import android.util.Log;
+import android.webkit.WebView;
+import android.widget.Toast;
 
 public class LorenzoDemo extends CordovaActivity {
+
 	private static final int SPLASH_TIME = 2000;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		// super.setIntegerProperty("splashscreen", R.drawable.icon);
-		//super.loadUrl("file:///android_asset/www/index.html");
-		super.loadUrl("http://lorenzo-pbryzek.dotcloud.com", SPLASH_TIME);
+		// super.loadUrl("file:///android_asset/www/index.html");
+		// super.loadUrl("http://lorenzo-pbryzek.dotcloud.com", SPLASH_TIME);
+
+		super.init();
+		super.clearCache();
+		super.clearHistory();
+
+		String url = "file:///android_asset/www/index.html";
+		if (isSdPresent()) {
+			String path = "/Lorenzo/Index.html";
+					
+			File dir = Environment.getExternalStorageDirectory();
+			File f = new File(dir, path);
+			
+			if (f.exists()) {
+				url = "file:///" + dir + path;
+				createToast("HTML found on sdcard reading from there.");
+			} else {
+				createToast("SD card is mounted, but " + path + " not found on sdcard.  Reading compiled html.");
+			}
+		} else {
+			createToast("SD card is not mounted, reading compiled html.");
+		}
+
+		super.loadUrl(url);
 	}
+	
+	private void createToast(String text){
+		Context context = getApplicationContext();
+		int duration = Toast.LENGTH_LONG;
+		Toast toast = Toast.makeText(context, text, duration);
+		toast.show();
+	}
+
+	public static boolean isSdPresent() {
+		return android.os.Environment.getExternalStorageState().equals(
+				android.os.Environment.MEDIA_MOUNTED);
+
+	}
+
 }
