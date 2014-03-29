@@ -45,7 +45,7 @@ public class LorenzoDemo extends CordovaActivity {
 		super.clearCache();
 		super.clearHistory();
 
-		String url = "file:///android_asset/www/index.html";
+		String url = "file:///android_asset/www/Index.html";
 		if (isSdPresent()) {
 			String path = "/Lorenzo/Index.html";
 					
